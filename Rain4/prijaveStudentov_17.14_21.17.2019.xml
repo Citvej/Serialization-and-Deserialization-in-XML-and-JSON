@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfIzpit xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Izpit>
+    <imeIzpita>VID</imeIzpita>
+    <ime>Ime</ime>
+    <priimek>Priimek</priimek>
+    <datum>2019-04-21T12:11:24.4165542+02:00</datum>
+  </Izpit>
+  <Izpit>
+    <imeIzpita>RAIN</imeIzpita>
+    <ime>Ime</ime>
+    <priimek>Priimek</priimek>
+    <datum>2019-04-21T12:13:35.3454661+02:00</datum>
+  </Izpit>
+  <Izpit>
+    <imeIzpita>RAIN</imeIzpita>
+    <ime>Neve</ime>
+    <priimek>Jevtic</priimek>
+    <datum>2019-04-21T12:13:44.1073488+02:00</datum>
+  </Izpit>
+</ArrayOfIzpit>

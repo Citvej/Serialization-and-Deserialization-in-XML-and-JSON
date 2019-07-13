@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfIzpit xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Izpit>
+    <imeIzpita>NPO</imeIzpita>
+    <ime>Ime</ime>
+    <priimek>Priimek</priimek>
+    <datum>2019-04-20T21:12:27.3483332+02:00</datum>
+  </Izpit>
+</ArrayOfIzpit>

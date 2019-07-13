@@ -1,0 +1,38 @@
+﻿
+@{
+    ViewData["Title"] = "View";
+}
+<br /><br />
+<form asp-area="" asp-controller="Izpiti" asp-action="Dodaj" enctype="multipart/form-data">
+    <input type="text" value="Ime" name="Ime" /> <br /> <br />
+    <input type="text" value="Priimek" name="Priimek" /> <br />
+    <input type="radio" name="izpit" value="RAIN" checked /> RAIN <br />
+    <input type="radio" name="izpit" value="NPO" /> NPO <br />
+    <input type="radio" name="izpit" value="VID" /> VID <br />
+    <input type="radio" name="izpit" value="Diskretna matematika" /> Diskretna matematika <br />
+    
+    <input type="submit" value="Dodaj" /> <br />
+</form>
+
+<br /><br />
+<form asp-area="" asp-controller="Izpiti" asp-action="Prenesi" method="post">
+    <h2>Izvozi: </h2><br />
+    <input type="radio" name="izvozi" value="XML" /> XML
+    <br />
+    <input type="radio" name="izvozi" value="JSON" /> JSON
+    <br />
+    <input type="submit" name="submit" value="Izvozi" />
+</form>
+
+<br /><br />
+<form asp-area="" asp-controller="Izpiti" asp-action="Nalozi" method="post" enctype="multipart/form-data">
+    <h2>Nalozi</h2>
+    <input type="file" name="file" />
+    <br />
+    <input type="submit" value="Upload" />
+</form>
+
+<div>
+    @ViewBag.podatki
+</div>
+
